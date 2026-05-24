@@ -1,0 +1,44 @@
+# Collaborative Notes App
+
+A real-time, collaborative note-taking application built with React, Node.js, Socket.io, and MongoDB.
+
+## Features
+- **Real-time Sync:** Edit notes simultaneously with other users.
+- **User Auth:** Secure registration and login.
+- **Organization:** Organize notes with folders and tags.
+- **Sharing:** Invite collaborators to your notes via email.
+
+## Documentation
+- [SRS.md](./SRS.md) - Software Requirements Specification.
+- [architecture.md](./architecture.md) - System design and API contracts.
+- [GEMINI.md](./GEMINI.md) - Project-specific coding standards.
+
+## Tech Stack
+- **Frontend:** React (Vite), Tailwind CSS
+- **Backend:** Node.js, Express, Socket.io
+- **Database:** MongoDB (Mongoose)
+
+## Getting Started
+
+### Prerequisites
+- Node.js (v18+)
+- MongoDB (Local or Atlas)
+
+### Local Setup
+1. Clone the repository.
+2. **Backend Setup:**
+   ```bash
+   cd server
+   npm install
+   # Create a .env file with MONGODB_URI and JWT_SECRET
+   npm start
+   ```
+3. **Frontend Setup:**
+   ```bash
+   cd client
+   npm install
+   npm run dev
+   ```
+
+## Development
+This project follows a "Documentation-First" approach. Please refer to `architecture.md` and `GEMINI.md` before contributing.
