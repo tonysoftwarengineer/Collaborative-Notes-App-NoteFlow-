@@ -1,10 +1,14 @@
 # NoteFlow — Real-Time Collaborative Notes
 
-A full-stack, Notion-style collaborative note-taking application. NoteFlow lets authenticated users create, share, and edit block-based documents together while keeping document state, comments, chat history, and revisions persisted in MongoDB.
+A full-stack, Notion-style collaborative note-taking application built for students who want to create and study shared class notes with their peers.
+
+## Who it is for
+
+Students working in study groups, project teams, or classes where everyone should be able to contribute to one shared set of notes instead of keeping separate copies.
 
 ## Why I built it
 
-Collaborative editing is more than sending the latest text to every browser: simultaneous edits can conflict, connections can drop, and the app still needs a durable source of truth. NoteFlow explores that problem with CRDT-based synchronization and a separate persistence path.
+Most note-taking apps are designed for one person writing alone. I built NoteFlow so students can share one document, add their own notes, edit and build on each other's ideas, and brainstorm in the same workspace. When one student makes a change, collaborators can see the update in real time instead of waiting for someone to send a new version.
 
 ## What it does
 
